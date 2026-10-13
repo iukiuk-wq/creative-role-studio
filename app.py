@@ -58,7 +58,7 @@ with st.sidebar:
     st.info(ROLES[role_name]["hint"])
     model = st.selectbox("Model:", ["gpt-4o-mini", "gpt-4o"], index=0)
 
-st.title("🎭 Role-based Creative Chatbot")
+st.title("🎭 Creative Role Studio")
 st.write("Select a creative role and ask your question!")
 
 question = st.text_area(
