@@ -1,7 +1,7 @@
 import streamlit as st
 from openai import OpenAI
 
-st.set_page_config(page_title="Role-based Creative Chatbot", page_icon="🎭", layout="wide")
+st.set_page_config(page_title="Creative Role Studio", page_icon="🎭", layout="wide")
 
 ROLES = {
     "🎥 Video Director": {
